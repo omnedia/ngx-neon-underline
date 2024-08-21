@@ -1,0 +1,25 @@
+{
+  "name": "ngx-neon-underline",
+  "description": "A simple component library to create a neon underline.",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "npm",
+    "component",
+    "underline",
+    "neon",
+    "light"
+  ],
+  "repository": {
+    "url": "https://github.com/omnedia/ngx-neon-underline"
+  },
+  "author": "Markus Block (markus.block@omnedia.com)",
+  "license": "MIT"
+}

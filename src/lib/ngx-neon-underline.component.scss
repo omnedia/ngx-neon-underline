@@ -1,0 +1,65 @@
+.om-neon-underline {
+  --om-neon-underline-middle-color: #0ea5e9;
+  --om-neon-underline-side-color: #6366f1;
+  --om-neon-underline-width: 75%;
+
+  position: relative;
+  width: 100%;
+
+  .om-neon-underline-glow,
+  .om-neon-underline-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .om-neon-underline-glow {
+    filter: blur(4px);
+  }
+
+  .om-neon-underline-glow-1 {
+    width: var(--om-neon-underline-width);
+    height: 2px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      var(--om-neon-underline-side-color),
+      transparent
+    );
+  }
+
+  .om-neon-underline-glow-2 {
+    width: calc(var(--om-neon-underline-width) * 0.3333333333333333333333333);
+    height: 5px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      var(--om-neon-underline-middle-color),
+      transparent
+    );
+  }
+
+  .om-neon-underline-color-1 {
+    width: var(--om-neon-underline-width);
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      var(--om-neon-underline-side-color),
+      transparent
+    );
+  }
+
+  .om-neon-underline-color-2 {
+    width: calc(var(--om-neon-underline-width) * 0.3333333333333333333333333);
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      var(--om-neon-underline-middle-color),
+      transparent
+    );
+  }
+}
