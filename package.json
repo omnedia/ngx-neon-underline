@@ -1,5 +1,5 @@
 {
-  "name": "ngx-neon-underline",
+  "name": "@omnedia/ngx-neon-underline",
   "description": "A simple component library to create a neon underline.",
   "version": "1.0.0",
   "peerDependencies": {
