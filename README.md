@@ -1,5 +1,13 @@
 # ngx-neon-underline
 
+<a href="https://ngxui.com" target="_blank" style="display: flex;gap: .5rem;align-items: center;cursor: pointer; padding: 0 0 0 0; height: fit-content;">
+  <img src="https://ngxui.com/assets/img/ngxui-logo.png" style="width: 64px;height: 64px;">
+  <p style="font-weight: bold; padding: 0; margin: 0; font-size: 4rem">NGXUI</p>
+</a>
+
+This Library is part of the NGXUI ecosystem. <br>
+View all available components at https://ngxui.com
+
 `@omnedia/ngx-neon-underline` is an Angular library that provides a glowing neon underline effect for your components. The component allows for customization of the colors and width of the underline, making it perfect for adding a striking visual effect to text, headers, or any other elements in your Angular application.
 
 ## Features
@@ -21,21 +29,23 @@ npm install @omnedia/ngx-neon-underline
 Import the `NgxNeonUnderlineComponent` in your Angular module or component:
 
 ```typescript
-import { NgxNeonUnderlineComponent } from '@omnedia/ngx-neon-underline';
+import {NgxNeonUnderlineComponent} from '@omnedia/ngx-neon-underline';
 
 @Component({
   ...
-  imports: [
-    ...
-    NgxNeonUnderlineComponent,
-  ],
+    imports:
+[
   ...
+    NgxNeonUnderlineComponent,
+],
+...
 })
 ```
 
 Use the component in your template:
 
 ```html
+
 <om-neon-underline
   [middleColor]="'#0ea5e9'"
   [sideColor]="'#6366f1'"
@@ -47,6 +57,7 @@ Use the component in your template:
 ## API
 
 ```html
+
 <om-neon-underline
   [middleColor]="middleColor"
   [sideColor]="sideColor"
@@ -63,6 +74,7 @@ Use the component in your template:
 ## Example
 
 ```html
+
 <om-neon-underline
   [middleColor]="'#ff5733'"
   [sideColor]="'#c70039'"
